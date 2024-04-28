@@ -100,10 +100,10 @@ function fecharReviewJarOfFiles(aberto) {
 
 }
 
-function abrirReviewAnacronico(txt) {
+function abrirReviewNevermind(txt) {
 
     if (aberto == true) {
-        fecharReviewAnacronico(aberto);
+        fecharReviewNevermind(aberto);
 
         aberto = false;
     }
@@ -117,7 +117,7 @@ function abrirReviewAnacronico(txt) {
 
 
 
-        var album = document.getElementById('localReviewAnacronico');
+        var album = document.getElementById('localReviewNevermind');
 
 
 
@@ -142,7 +142,7 @@ function abrirReviewAnacronico(txt) {
 
 }
 
-function fecharReviewAnacronico(aberto) {
+function fecharReviewNevermind(aberto) {
     if (aberto == false) {
         album.style.visibility = 'visible';
         console.log('já tá fechado')
@@ -150,10 +150,10 @@ function fecharReviewAnacronico(aberto) {
 
     else {
         aberto = false;
-        var album = document.getElementById('localReviewAnacronico');
+        var album = document.getElementById('localReviewNevermind');
 
 
-        var albumdisplay = document.getElementById('localReviewAnacronico').style.display;
+        var albumdisplay = document.getElementById('localReviewNevermind').style.display;
 
         console.log(albumdisplay.toString())
 
@@ -169,10 +169,10 @@ function fecharReviewAnacronico(aberto) {
 
 }
 
-function abrirReviewAnacronico(txt) {
+function abrirReviewLTT(txt) {
 
     if (aberto == true) {
-        fecharReviewAnacronico(aberto);
+        fecharReviewLTT(aberto);
 
         aberto = false;
     }
@@ -186,7 +186,7 @@ function abrirReviewAnacronico(txt) {
 
 
 
-        var album = document.getElementById('localReviewAnacronico');
+        var album = document.getElementById('localReviewLTT');
 
 
 
@@ -207,6 +207,33 @@ function abrirReviewAnacronico(txt) {
 
         console.log(aberto);
     }
+
+
+}
+
+function fecharReviewLTT(aberto) {
+    if (aberto == false) {
+        album.style.visibility = 'visible';
+        console.log('já tá fechado')
+    }
+
+    else {
+        aberto = false;
+        var album = document.getElementById('localReviewLTT');
+
+
+        var albumdisplay = document.getElementById('localReviewLTT').style.display;
+
+        console.log(albumdisplay.toString())
+
+        if (albumdisplay.toString() == 'block') {
+            albumdisplay = 'hidden';
+            album.style.visibility = 'hidden';
+            album.style.position = 'absolute';
+            console.log('cu')
+        }
+    }
+
 
 
 }
