@@ -1,0 +1,185 @@
+* {
+    gap: 0px;
+
+    margin: 0;
+
+
+}
+
+body {
+    background-image: url(../src/bgImageRDC.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header {
+    width: 50%;
+    height: 10%;
+
+    background-color: #cf9191;
+
+    border-radius: 15px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    font-family: "Anton", sans-serif;
+
+    font-size: 30px;
+
+    font-weight: bold;
+    font-style: oblique;
+
+    text-decoration: underline;
+    text-shadow: 8px;
+}
+
+.subtitulo {
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 14px;
+
+    text-decoration: dashed;
+
+    padding: 2px;
+}
+
+main {
+    width: 100%;
+    height: 90%;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.itens_Ul {
+    list-style: none;
+    height: 80%;
+
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+
+}
+
+.item_Li {
+    height: auto;
+    width: 100%;
+
+    margin: 8px;
+
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.album {
+    height: 85%;
+    width: 40%;
+
+    background-color: #b33737;
+
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 8px;
+
+    gap: 8px;
+
+}
+
+.nomeESpotify {
+    height: 100%;
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 8px;
+}
+
+.nomeAlbum {
+    font-family: "Anton", sans-serif;
+
+    font-size: 24px;
+}
+
+.notaEReview{
+    height: 100%;
+    width: 25%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 8px;
+}
+
+.circleNota{
+    background-color: #cf9191;
+    border-radius: 100%;
+
+    height: 60px;
+    width: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Anton", sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.review{
+    height: 40px;
+    width: 80px;
+
+    border-radius: 15px;
+
+    background-color: #441515;
+    color: #fff;
+
+    font-family: "Anton", sans-serif;
+    font-size: medium;
+
+    border-color: #441515;
+
+    border: #441515 solid;
+
+
+}
+
+.review:hover{
+    cursor: pointer;
+    background-color: #4415158e;
+}
