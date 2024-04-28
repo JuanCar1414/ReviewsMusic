@@ -8,7 +8,6 @@
 
 body {
     background-image: url(../src/bgImageRDC.png);
-    /* background-repeat: no-repeat; */
     background-size: cover;
 
     width: 100%;
